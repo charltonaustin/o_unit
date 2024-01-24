@@ -1,0 +1,8 @@
+(library
+    (name dep_one)
+    (modules dep_one))
+
+(test
+    (name dep_one_test)
+    (modules dep_one_test)
+    (libraries ounit2 dep_one))
